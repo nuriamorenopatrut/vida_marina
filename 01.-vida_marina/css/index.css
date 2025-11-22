@@ -1,0 +1,48 @@
+body {
+  background-image: url("./../assets/images/bubbles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+/* Main container */
+
+.container {
+  width: 700px;
+  margin: 330px auto;
+  /* border: solid 2px black; */
+  text-align: center;
+}
+
+/* Header */
+
+.header-container {
+  font-family: fascinate-regular, sans-serif;
+  font-size: 5rem;
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
+
+/* Button */
+
+.button-container {
+  margin-top: 55px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #230f34b7;
+  color: white;
+  border-radius: 2rem;
+  /* font-style: italic; */
+  border: 2px solid #230f34b7;
+}
+
+/* Style of button when you hover over it */
+
+.button-container:hover {
+  color: #230f34b7;
+  background-color: rgba(255, 255, 255, 0.525);
+  font-weight: bold;
+}

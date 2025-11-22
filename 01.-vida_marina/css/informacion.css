@@ -1,0 +1,31 @@
+.information-container {
+  width: 1200px;
+  margin: 0 auto;
+  border: solid 2px red;
+}
+
+.section {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article {
+  background: #f7f6f6;
+  padding: 28px;
+  margin: 0 30px 30px 30px;
+  box-shadow: 2px 3px 10px #514e4e;
+}
+
+.article-title {
+  font-size: 1.9rem;
+  font-variant: small-caps;
+  margin: 0;
+  margin-bottom: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.article-text {
+  text-align:left;
+}
