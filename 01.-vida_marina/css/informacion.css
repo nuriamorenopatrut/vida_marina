@@ -1,24 +1,24 @@
+/* Container that holds everything */
 .information-container {
   width: 1200px;
-  margin: 0 auto;
-  border: solid 2px red;
+  /* border: solid 2px red; */
 }
 
-.section {
-  width: 70%;
+/* Container of the principal 
+content of the page */
+.main {
+  width: 60%;
   display: inline-block;
-  vertical-align: top;
-}
-
-.article {
-  background: #f7f6f6;
+  background-color: #f7f6f6ef;
   padding: 28px;
   margin: 0 30px 30px 30px;
-  box-shadow: 2px 3px 10px #514e4e;
+  box-shadow: 10px 10px 13px #343131;
+  border-radius: 20px;
+  /* border: solid 2px yellow; */
 }
 
-.article-title {
-  font-size: 1.9rem;
+.main-title {
+  font-size: 2.25rem;
   font-variant: small-caps;
   margin: 0;
   margin-bottom: 18px;
@@ -26,6 +26,82 @@
   font-weight: bold;
 }
 
-.article-text {
-  text-align:left;
+/* Container for the text so 
+I can align it with the image container */
+.text-container {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+/* Container of the p so I can separate
+ the lines of the text*/
+.text-container-p {
+  margin-bottom: 9px;
+}
+
+.main-text {
+  margin-left: 4px;
+}
+
+.img-text {
+  display: inline-block;
+  width: 300px;
+  height: 380px;
+  vertical-align: top;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.h2-main {
+  border-top: 2px solid #514e4e;
+  padding-top: 3px;
+  font-variant: small-caps;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+/* Text that is below the main one */
+.main-subtext {
+  margin-left: 20px;
+}
+
+.img-subtext {
+  display: inline-block;
+  width: 300px;
+  height: 470px;
+  vertical-align: center;
+  margin-left: 2px;
+  border-radius: 10px;
+}
+/* Articles that are in the right side */
+.aside {
+  width: 33%;
+  display: inline-block;
+  /* border: 2px solid purple; */
+  vertical-align:top;
+  margin-top: 50px;
+}
+
+/* Aside container */
+.aside-container {
+  background-color: #f7f6f6ef;
+  padding: 25px;
+  margin-bottom: 70px;
+  box-shadow: 8px 8px 12px #343131;
+  border-radius: 25px;
+}
+
+.aside-title{
+  font-size: 1.45rem;
+  margin-bottom: 15px;
+  color: rgb(87, 7, 116);
+  font-weight: bold;
+}
+
+.aside-image{
+  margin-top: 15px;
+  width: 320px;
+  border-radius: 45px;
+  display: block;
 }

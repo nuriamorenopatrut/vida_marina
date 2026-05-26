@@ -1,0 +1,91 @@
+.principal-container {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgba(177, 172, 172, 0.952);
+  width: 1200px;
+  margin: 0px auto;
+  border-radius: 80px;
+  box-shadow: 7px 6px 12px;
+}
+
+.header {
+  /* border: 2px solid rgb(198, 33, 33); */
+  width: 600px;
+}
+
+.header-text {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+  font-variant: small-caps;
+  letter-spacing: 4px;
+}
+
+/* Container for the text and images */
+.section-text-with-image {
+  width: 100%;
+  padding: 20px 0;
+  /* border: 2px solid red; */
+}
+
+/* Individual container */
+.articles {
+  margin: 0px auto;
+  margin-left: 35px;
+  display: inline-block;
+  background-color: rgba(234, 203, 203, 0.689);
+  width: 45%;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  padding-bottom: 20px;
+  box-shadow: 5px 4px 7px;
+}
+
+/* Individual container but separated 
+from the other since the width and style 
+of it changes */
+.third-article {
+  margin: 0px auto;
+  margin-left: 35px;
+  display: inline-block;
+  /* border: 2px solid rgb(0, 0, 0); */
+  border-radius: 30px;
+  margin-top: 30px;
+  width: 95%;
+}
+
+.article-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 1.75rem;
+}
+
+.article-text {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.article-image {
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  margin-left: 20px;
+  border-radius: 10px;
+  vertical-align: top;
+  border: 3px rgba(255, 207, 149, 0.906) solid;
+  box-shadow: 6px 6px 5px #5a4e4e;
+}
+
+.third-article-image {
+  width: 325px;
+  height: 390px;
+  display: inline-block;
+  margin-left: 30px;
+  border-radius: 30px;
+  vertical-align: top;
+  box-shadow: 2px 5px 4px;
+}

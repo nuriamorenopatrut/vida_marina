@@ -1,0 +1,112 @@
+/* Principal container */
+.animals-container {
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 1200px;
+  margin: 0px auto;
+  background-color: #ffffffe9;
+  border-radius: 20px;
+}
+
+/* Header */
+.header {
+  /* border: 2px solid rgb(0, 245, 159); */
+  height: 80px;
+}
+
+.header-text {
+  font-size: 3.5rem;
+  /* text-align: center; */
+  margin: 20px;
+  padding: 5px;
+  font-variant: small-caps;
+  letter-spacing: 4px;
+}
+
+/* Main */
+.main-animales {
+  width: 100%;
+  padding: 10px 0;
+}
+
+/* Container for the first article */
+.first-article {
+  margin: 0px auto;
+  /* border: 2px solid rgb(0, 0, 0); */
+  padding: 20px;
+}
+
+/* Text for the first article */
+.main-text {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  word-spacing: 3px;
+}
+
+/* List for the first article */
+.main-list {
+  list-style: square;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.h2-main {
+  margin-bottom: 40px;
+  font-size: 1.85rem;
+  padding-left: 20px;
+}
+
+/* Container of the rest of the articles */
+.article {
+  width: 48%;
+  height: 455px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  display: inline-block;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 30px;
+  padding: 20px;
+  /* padding-bottom: 20px; */
+}
+
+/* Images for the rest of the articles */
+.images {
+  display: inline-block;
+  width: 38%;
+  height: 300px;
+  vertical-align: top;
+  border: 2px solid rgba(32, 31, 31, 0.886);
+  margin-left: 10px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 10px;
+}
+
+/* Container of the name and 
+information of the specie */
+.animal-information {
+  vertical-align:top;
+  display: inline-block;
+  width: 55%;
+  height: 300px;
+  margin-left: 20px;
+  padding: 13px;
+  /* border: 2px solid purple; */
+}
+
+/* Name of the specie of the animal */
+.article-subtitle {
+  font-size: 1.55rem;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.article-text {
+  vertical-align: top;
+  word-spacing: 3px;
+  margin-bottom: 2px;
+  /* border: 2px solid blue; */
+}
